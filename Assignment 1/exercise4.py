@@ -9,7 +9,7 @@ gm_parameter = 398600 # (GM)
 total_radius = earth_radius + altitude # Your code here
 
 # 2. Orbital Velocity (v = sqrt(GM / R))
-velocity = round(math.sqrt(gm_parameter // total_radius), 2) # Your code here
+velocity = round(math.sqrt(gm_parameter / total_radius), 2) # Your code here
 
 # 3. Horizon Distance (d = sqrt(R^2 - r^2))
 horizon_dist = round(math.sqrt(total_radius ** 2 - earth_radius ** 2), 1) # Your code here

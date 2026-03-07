@@ -18,10 +18,10 @@ total_planks = 40 * 6
 
 # Bulk units: Planks (15), Screws (200), Stain (5), Sandpaper (10)
 # Use math.ceil() for the following:
-bundles_planks = math.ceil((PROJECT_SIZE * PLANKS_SQM) // 15) # Your code here
-boxes_screws = math.ceil((PROJECT_SIZE * SCREWS_SQM) // 200)# Your code here
-cans_stain = math.ceil((PROJECT_SIZE * STAIN_SQM) // 5)# Your code here
-packs_sandpaper = math.ceil((PROJECT_SIZE * SANDPAPER_SQM) // 10)# Your code here
+bundles_planks = math.ceil((PROJECT_SIZE * PLANKS_SQM) / 15) # Your code here
+boxes_screws = math.ceil((PROJECT_SIZE * SCREWS_SQM) / 200)# Your code here
+cans_stain = math.ceil((PROJECT_SIZE * STAIN_SQM) / 5)# Your code here
+packs_sandpaper = math.ceil((PROJECT_SIZE * SANDPAPER_SQM) / 10)# Your code here
 
 # Print in the table format requested
 #| Item      | Requirement/m² | Needed           |
